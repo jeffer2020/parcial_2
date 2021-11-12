@@ -52,4 +52,10 @@ Fecha_ingreso varchar(50) not null,
 Observaciones varchar(50) not null,
 );
 
-
+create table Veterinario(
+veterinarioid int primary key identity(1,1) not null,
+Código_identificación_Veterinario int not null,
+Nombre varchar(50) not null,
+Apellidos varchar(50) not null,
+Cargo varchar(50) not null,
+);
